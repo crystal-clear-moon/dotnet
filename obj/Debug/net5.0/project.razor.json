@@ -12,6 +12,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1687360499,
+        "Kind": "Components.Component",
+        "Name": "DotnetApp.Pages.FetchData",
+        "AssemblyName": "DotnetApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DotnetApp.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -673126590,
+        "Kind": "Components.Component",
+        "Name": "DotnetApp.Pages.FetchData",
+        "AssemblyName": "DotnetApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DotnetApp.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "DotnetApp.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1580925834,
         "Kind": "Components.Component",
         "Name": "DotnetApp.Pages.Index",
@@ -45,7 +78,7 @@
         }
       },
       {
-        "HashCode": 931186728,
+        "HashCode": -1525445903,
         "Kind": "Components.Component",
         "Name": "DotnetApp.Pages.Counter",
         "AssemblyName": "DotnetApp",
@@ -55,13 +88,23 @@
             "TagName": "Counter"
           }
         ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IncrementAmount",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "IncrementAmount"
+            }
+          }
+        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DotnetApp.Pages.Counter"
         }
       },
       {
-        "HashCode": -1421270168,
+        "HashCode": 2140447768,
         "Kind": "Components.Component",
         "Name": "DotnetApp.Pages.Counter",
         "AssemblyName": "DotnetApp",
@@ -71,6 +114,16 @@
             "TagName": "DotnetApp.Pages.Counter"
           }
         ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "IncrementAmount",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "IncrementAmount"
+            }
+          }
+        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "DotnetApp.Pages.Counter",
@@ -78,35 +131,55 @@
         }
       },
       {
-        "HashCode": 1687360499,
+        "HashCode": 1183833516,
         "Kind": "Components.Component",
-        "Name": "DotnetApp.Pages.FetchData",
+        "Name": "DotnetApp.Shared.SurveyPrompt",
         "AssemblyName": "DotnetApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DotnetApp.Pages.FetchData"
+          "Common.TypeName": "DotnetApp.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -673126590,
+        "HashCode": -1922495303,
         "Kind": "Components.Component",
-        "Name": "DotnetApp.Pages.FetchData",
+        "Name": "DotnetApp.Shared.SurveyPrompt",
         "AssemblyName": "DotnetApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "DotnetApp.Pages.FetchData"
+            "TagName": "DotnetApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DotnetApp.Pages.FetchData",
+          "Common.TypeName": "DotnetApp.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -236,59 +309,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "DotnetApp.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1183833516,
-        "Kind": "Components.Component",
-        "Name": "DotnetApp.Shared.SurveyPrompt",
-        "AssemblyName": "DotnetApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DotnetApp.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -1922495303,
-        "Kind": "Components.Component",
-        "Name": "DotnetApp.Shared.SurveyPrompt",
-        "AssemblyName": "DotnetApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DotnetApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "DotnetApp.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
